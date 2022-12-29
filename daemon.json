@@ -1,0 +1,10 @@
+{
+    "exec-opts": ["native.cgroupdriver=systemd"],
+    "log-driver": "json-file",
+    "log-opts": {
+        "max-size": "100m"
+    },
+    "storage-driver": "overlay2",
+    "registry-mirrors": ["https://egkr0rl5.mirror.aliyuncs.com"],
+    "insecure-registries": ["harbor.iot.store:8085"]
+}
